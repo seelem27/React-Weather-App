@@ -1,0 +1,14 @@
+/* render background based on theme */
+.dark, .light {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dark {
+    background-image: url('./assets//weather/bg-dark.png');
+}
+
+.light {
+    background-image: url('./assets/weather/bg-light.png');
+}
